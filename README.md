@@ -23,5 +23,6 @@ The plugins POE2Fixer's Plugin Manager offers (Plugins → Plugin Manager). `cat
 | [Skill DPS](https://github.com/POEFixer/SkillDPS) | [1.0.2](https://github.com/POEFixer/SkillDPS/releases/tag/v1.0.2) | Shows the game's own DPS for each skill on your skill-bar icons, plus an optional movable list of every evaluated skill including minions. |
 | [Tablet Helper](https://github.com/POEFixer/TabletHelper) | [1.4.3](https://github.com/POEFixer/TabletHelper/releases/tag/v1.4.3) | Highlights Precursor Tablets in your inventory, stash, guild stash and merchant windows, coloured by type and filtered by bonuses, roll values and uses left. |
 | [Waystone Helper](https://github.com/POEFixer/WaystoneHelper) | [1.4.2](https://github.com/POEFixer/WaystoneHelper/releases/tag/v1.4.2) | Marks waystones in your inventory and stash with affix-count, map-stat and affix-group badges, coloured borders by your own rules, and a hover breakdown. |
+| [Where Are You Going](https://github.com/POEFixer/WhereAreYouGoing) | [1.0.0](https://github.com/POEFixer/WhereAreYouGoing/releases/tag/v1.0.0) | Draws a ring on the ground around rare and unique monsters (or any rarity you pick) and can show a line to where each one is going. |
 
-Generated 2026-10-22T07:43:29Z from POEFixer/POE2Fixer source commit `0159c8abc`.
+Generated 2026-10-22T09:12:09Z from POEFixer/POE2Fixer source commit `c7a392791`.
