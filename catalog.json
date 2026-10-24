@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-10-23T22:27:38Z",
-  "source_commit": "05197d4859e7866ba0c40ae7c372f71f1f935f78",
+  "generated": "2026-10-24T15:23:05Z",
+  "source_commit": "b72eb1c7b8309c847b46abda1322912a21b8f0e4",
   "plugins": [
     {
       "id": "AmanamuVoidAlert",
@@ -170,19 +170,19 @@
     {
       "id": "GetBackMyZoom",
       "name": "Get Back My Zoom",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "author": "Omer Faruk ARPA, POEFixer",
       "description": "Restores a much further camera zoom-out, removes Atlas fog, reveals the whole map and enlarges the light radius, safely undone when switched off.",
       "repo": "POEFixer/GetBackMyZoom",
-      "tag": "v1.1.4",
-      "url": "https://github.com/POEFixer/GetBackMyZoom/releases/download/v1.1.4/GetBackMyZoom.zip",
-      "sha256": "6c2640118a90015a4a6543d1cb78272602719a630c62297cae5a11d4b8d3ab97",
-      "size": 303553,
+      "tag": "v1.1.5",
+      "url": "https://github.com/POEFixer/GetBackMyZoom/releases/download/v1.1.5/GetBackMyZoom.zip",
+      "sha256": "ee32e5b63b75b1323f009454ceac1af32b2c30fe961981cd95e251d2a3ce8018",
+      "size": 303549,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 364,
       "changes": [
-        "Works with the separate menu window (POEFixer 366): the host hands the plugin the right drawing context for its settings tab and for its overlay."
+        "\"Reveal the whole map\" works again: the game had moved the map data it changes, so the plugin no longer found where to apply it."
       ],
       "legacy_folders": []
     },
