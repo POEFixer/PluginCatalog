@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-10-31T14:00:17Z",
-  "source_commit": "01e375096fa7f883d5870e9b062ff5d1309cc840",
+  "generated": "2026-10-31T14:48:30Z",
+  "source_commit": "639c776aaf5646a5491a08d7492f6334349d7f7f",
   "plugins": [
     {
       "id": "AmanamuVoidAlert",
@@ -285,19 +285,21 @@
     {
       "id": "Radar",
       "name": "Radar",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "author": "POEFixer",
       "description": "Draws nearby monsters, NPCs, chests, area transitions and the walkable map on the in-game large map.",
       "repo": "POEFixer/Radar",
-      "tag": "v1.0.4",
-      "url": "https://github.com/POEFixer/Radar/releases/download/v1.0.4/Radar.zip",
-      "sha256": "4fb75604effb9cfc1d4b175ef02c8b2082c4469bda44f9b9edfec77f316714a2",
-      "size": 270359,
+      "tag": "v1.0.5",
+      "url": "https://github.com/POEFixer/Radar/releases/download/v1.0.5/Radar.zip",
+      "sha256": "df46bc54201c53c9f15fac8aaa45c9d4046637ee037451d1576fd0f14e1f534f",
+      "size": 271765,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 364,
       "changes": [
-        "Built with the current plugin SDK: a controller that is not XInput reports no port (-1) even when ready."
+        "Much faster with the large map open: the program no longer switches the plugin off as too slow on large areas.",
+        "Walkable dots are drawn only where they are on screen and are thinned out when the map is zoomed far out.",
+        "Map points now sit on the game's map at any terrain height."
       ],
       "legacy_folders": []
     },
