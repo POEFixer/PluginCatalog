@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-10-31T07:36:07Z",
-  "source_commit": "cdb2dacc552747026182e89b2b7bd633cc7bd686",
+  "generated": "2026-10-31T14:00:17Z",
+  "source_commit": "01e375096fa7f883d5870e9b062ff5d1309cc840",
   "plugins": [
     {
       "id": "AmanamuVoidAlert",
@@ -177,24 +177,32 @@
     {
       "id": "GGPKExplorer",
       "name": "GGPK Explorer",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": "POEFixer",
       "description": "Browses the game's content files: searchable file tree, viewers for tables, images, models and audio, and file extraction.",
       "repo": "POEFixer/GGPKExplorer",
-      "tag": "v1.0.3",
-      "url": "https://github.com/POEFixer/GGPKExplorer/releases/download/v1.0.3/GGPKExplorer.zip",
-      "sha256": "9cb49603f92ab1693e052c254840583a339797ddf4a951d82c0081ce5a24da43",
-      "size": 1485708,
+      "tag": "v1.0.4",
+      "url": "https://github.com/POEFixer/GGPKExplorer/releases/download/v1.0.4/GGPKExplorer.zip",
+      "sha256": "c425d0ad05eed17036ee65a2ca17a89094a13eb11df1aa61fb337131d18fbc47",
+      "size": 1271933,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 364,
       "changes": [
-        "Follows the program language (ten languages).",
-        "In a narrow tab the load status moves to its own line and the empty file tree's note wraps, so neither is cut off.",
-        "Works in every game language: the table definitions come from the game data the program installs and updates, and load again when it updates them; until they arrive the table views show \"Waiting for game data\". The text viewer keeps its monospace font after the program changes language.",
-        "The Skill Tree and its Metadata tab wait for the table definitions too (\"Waiting for game data\") and open as soon as they arrive, instead of staying on an error when a skill tree file was opened first.",
-        "Table definitions that arrived but could not be read show why on every view that needs them, instead of \"Waiting for game data\" for ever; they are read again when the program updates them.",
-        "Long lines in the search results are cut between characters, never inside one."
+        "Extracting folders and selections is several times faster (it reads whole bundles at once and writes with up to four threads), and a Cancel button in the toolbar stops a running extraction.",
+        "Save As converts textures to PNG and tables to JSON/CSV on several CPU cores, with its own Cancel button.",
+        "Find in Files, Replace in Files and Find references in the table viewer run much faster; replacing no longer freezes the window.",
+        "Expand All on a large folder no longer freezes the window.",
+        "Fixed crashes when loading, unloading or reloading (F5) during an extraction, export or search, and when a search used an invalid \"\\x\" escape.",
+        "Folders with non-English names work for opening and extracting. Empty files are extracted, long output paths work, and failed writes are reported.",
+        "A file replaced with an empty one reads back correctly straight away, not only after the next save.",
+        "The replace preview no longer skips files inside collapsed folders.",
+        "The game path is pre-filled from the program's general settings when Smoother has none.",
+        ".aoc files open in the same Model view as meshes: the main model with its skeleton and animations. The Text tab is unchanged.",
+        "The 3D view is simpler: diffuse textures, one light, Solid/Wire, Grid, Bones, Follow and the animation panel. Lights, sounds, particles, states, sockets and attachments are removed.",
+        "The model view says what is missing (the mesh data, a parent of an .aoc, the skeleton) instead of showing an empty view, and saving an .aoc in the Text tab keeps the camera and the selected clip.",
+        "The Info tab shows a short summary with a Copy button.",
+        "Lighter: no shadow pass every frame, and the plugin DLL is about 15% smaller."
       ],
       "legacy_folders": []
     },
