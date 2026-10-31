@@ -18,7 +18,7 @@ The plugins POE2Fixer's Plugin Manager offers (Plugins → Plugin Manager). `cat
 | [Ninja Pricer](https://github.com/POEFixer/NinjaPricer) | [1.0.4](https://github.com/POEFixer/NinjaPricer/releases/tag/v1.0.4) | Shows item prices on dropped items, in your inventory and stash, in the Ritual shop and on Runeshape rewards. |
 | [Pick My Loot](https://github.com/POEFixer/PickMyLoot) | [1.2.6](https://github.com/POEFixer/PickMyLoot/releases/tag/v1.2.6) | Picks up the ground items you tick, or anything above a price you set, nearest first, using POEFixer prices; pauses on panels, enemies, town or menu. |
 | [Quick Stash](https://github.com/POEFixer/QuickStash) | [1.4.8](https://github.com/POEFixer/QuickStash/releases/tag/v1.4.8) | One-click Transfer from your backpack into the open stash, vendor or trade window, and TAKE from the stash by the game's own item search. |
-| [Radar](https://github.com/POEFixer/Radar) | [1.0.5](https://github.com/POEFixer/Radar/releases/tag/v1.0.5) | Draws nearby monsters, NPCs, chests, area transitions and the walkable map on the in-game large map. |
+| [Radar](https://github.com/POEFixer/Radar) | [1.0.6](https://github.com/POEFixer/Radar/releases/tag/v1.0.6) | Draws nearby monsters, NPCs, chests, area transitions and the walkable map on the in-game large map. |
 | [Ritual Helper](https://github.com/POEFixer/RitualHelper) | [1.6.0](https://github.com/POEFixer/RitualHelper/releases/tag/v1.6.0) | Highlights the Ritual rewards you want in the Favours window, shows their prices and defers them all with one click. |
 | [Sekhema Helper](https://github.com/POEFixer/SekhemaHelper) | [1.0.4](https://github.com/POEFixer/SekhemaHelper/releases/tag/v1.0.4) | Trial of the Sekhemas helper: scores every room, recommends the best route to the boss and marks it on the in-game map. |
 | [Skill DPS](https://github.com/POEFixer/SkillDPS) | [1.0.6](https://github.com/POEFixer/SkillDPS/releases/tag/v1.0.6) | Shows the game's own DPS for each skill on your skill-bar icons, plus an optional movable list of every evaluated skill including minions. |
@@ -26,4 +26,4 @@ The plugins POE2Fixer's Plugin Manager offers (Plugins → Plugin Manager). `cat
 | [Waystone Helper](https://github.com/POEFixer/WaystoneHelper) | [1.4.6](https://github.com/POEFixer/WaystoneHelper/releases/tag/v1.4.6) | Marks waystones in your inventory and stash with affix-count, map-stat and affix-group badges, coloured borders by your own rules, and a hover breakdown. |
 | [Where Are You Going](https://github.com/POEFixer/WhereAreYouGoing) | [1.0.4](https://github.com/POEFixer/WhereAreYouGoing/releases/tag/v1.0.4) | Draws a ring on the ground around rare and unique monsters (or any rarity you pick) and can show a line to where each one is going. |
 
-Generated 2026-10-31T14:48:30Z from POEFixer/POE2Fixer source commit `639c776aa`.
+Generated 2026-10-31T17:14:41Z from POEFixer/POE2Fixer source commit `378623e9a`.

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-10-31T14:48:30Z",
-  "source_commit": "639c776aaf5646a5491a08d7492f6334349d7f7f",
+  "generated": "2026-10-31T17:14:41Z",
+  "source_commit": "378623e9abeb522c550b98abc6c85ec99d4f77fe",
   "plugins": [
     {
       "id": "AmanamuVoidAlert",
@@ -285,21 +285,20 @@
     {
       "id": "Radar",
       "name": "Radar",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "author": "POEFixer",
       "description": "Draws nearby monsters, NPCs, chests, area transitions and the walkable map on the in-game large map.",
       "repo": "POEFixer/Radar",
-      "tag": "v1.0.5",
-      "url": "https://github.com/POEFixer/Radar/releases/download/v1.0.5/Radar.zip",
-      "sha256": "df46bc54201c53c9f15fac8aaa45c9d4046637ee037451d1576fd0f14e1f534f",
-      "size": 271765,
+      "tag": "v1.0.6",
+      "url": "https://github.com/POEFixer/Radar/releases/download/v1.0.6/Radar.zip",
+      "sha256": "1a264bbad56456d454af76b6f691e6f3e7fd6cac86eda81e1ed45eafe9e567bd",
+      "size": 273734,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 364,
       "changes": [
-        "Much faster with the large map open: the program no longer switches the plugin off as too slow on large areas.",
-        "Walkable dots are drawn only where they are on screen and are thinned out when the map is zoomed far out.",
-        "Map points now sit on the game's map at any terrain height."
+        "No longer switched off by the program as too slow, and no frame-rate drop with the large map open: the radar reads only the monsters, NPCs, chests and area transitions it draws instead of every object in the area (thousands on a map).",
+        "Fewer walkable dots: at least 12 pixels apart, at most 20,000 per frame, thinned evenly when the map is zoomed out."
       ],
       "legacy_folders": []
     },
