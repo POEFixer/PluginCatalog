@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-10-31T17:14:41Z",
-  "source_commit": "378623e9abeb522c550b98abc6c85ec99d4f77fe",
+  "generated": "2026-11-01T13:36:24Z",
+  "source_commit": "1ce2bebf1cd6a97cc2ebc78b24a987a7bc4899e4",
   "plugins": [
     {
       "id": "AmanamuVoidAlert",
@@ -63,19 +63,20 @@
     {
       "id": "BuffOverlay",
       "name": "Buff Overlay",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "author": "1k4ru5g3, POEFixer",
       "description": "Shows chosen buffs and skill states as icons, charges, time left or custom text anywhere on screen, with a live preview and drag-to-place.",
       "repo": "POEFixer/BuffOverlay",
-      "tag": "v1.0.5",
-      "url": "https://github.com/POEFixer/BuffOverlay/releases/download/v1.0.5/BuffOverlay.zip",
-      "sha256": "9266b32e8bec2ed0ac331372be95cb2c328735c4736ed16179e5c9672a8a2ec3",
-      "size": 443819,
+      "tag": "v1.0.6",
+      "url": "https://github.com/POEFixer/BuffOverlay/releases/download/v1.0.6/BuffOverlay.zip",
+      "sha256": "c59227ce2b416eadf6764e88a35b9e248372775d9caefc5c31ba940379ee1ee0",
+      "size": 444356,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 364,
       "changes": [
-        "Built with the current plugin SDK: a controller that is not XInput reports no port (-1) even when ready."
+        "Buff names saved with the old \"_79\" ending keep matching after POEFixer 376 shows plain buff ids.",
+        "The example tracker of a new install and the buff name hints use the plain buff id."
       ],
       "legacy_folders": []
     },
@@ -120,19 +121,19 @@
     {
       "id": "FollowBot",
       "name": "Follow Bot",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": "POEFixer",
       "description": "A follower that keeps up with your leader through areas and portals, fights, loots and stashes by your rules, and recovers from getting stuck.",
       "repo": "POEFixer/FollowBot",
-      "tag": "v1.0.3",
-      "url": "https://github.com/POEFixer/FollowBot/releases/download/v1.0.3/FollowBot.zip",
-      "sha256": "cb5c91421d6385791ea05bccb3dc05034e3dcb0ce0b5abf8c2b22a3be33ab4f6",
-      "size": 1033016,
+      "tag": "v1.0.4",
+      "url": "https://github.com/POEFixer/FollowBot/releases/download/v1.0.4/FollowBot.zip",
+      "sha256": "a11861ff732e5cfb6259ad5d5401dccbc8325e06abec9b09c1a0057fc5bbd754",
+      "size": 1033293,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 365,
       "changes": [
-        "Built with the current plugin SDK: a controller that is not XInput reports no port (-1) even when ready."
+        "Buff names saved with the old \"_79\" ending keep matching after POEFixer 376 shows plain buff ids."
       ],
       "legacy_folders": []
     },
