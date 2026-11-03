@@ -23,7 +23,8 @@ The plugins POE2Fixer's Plugin Manager offers (Plugins → Plugin Manager). `cat
 | [Sekhema Helper](https://github.com/POEFixer/SekhemaHelper) | [1.0.4](https://github.com/POEFixer/SekhemaHelper/releases/tag/v1.0.4) | Trial of the Sekhemas helper: scores every room, recommends the best route to the boss and marks it on the in-game map. |
 | [Skill DPS](https://github.com/POEFixer/SkillDPS) | [1.0.6](https://github.com/POEFixer/SkillDPS/releases/tag/v1.0.6) | Shows the game's own DPS for each skill on your skill-bar icons, plus an optional movable list of every evaluated skill including minions. |
 | [Tablet Helper](https://github.com/POEFixer/TabletHelper) | [1.4.7](https://github.com/POEFixer/TabletHelper/releases/tag/v1.4.7) | Highlights Precursor Tablets in your inventory, stash, guild stash and merchant windows, coloured by type and filtered by bonuses, roll values and uses left. |
+| [Tablet Reforge](https://github.com/POEFixer/TabletReforge) | [1.1.1](https://github.com/POEFixer/TabletReforge/releases/tag/v1.1.1) | Runs the tablet reforge cycle: takes tablets from your stash, reforges trios at the Reforging Bench and puts the results back. |
 | [Waystone Helper](https://github.com/POEFixer/WaystoneHelper) | [1.4.6](https://github.com/POEFixer/WaystoneHelper/releases/tag/v1.4.6) | Marks waystones in your inventory and stash with affix-count, map-stat and affix-group badges, coloured borders by your own rules, and a hover breakdown. |
 | [Where Are You Going](https://github.com/POEFixer/WhereAreYouGoing) | [1.0.4](https://github.com/POEFixer/WhereAreYouGoing/releases/tag/v1.0.4) | Draws a ring on the ground around rare and unique monsters (or any rarity you pick) and can show a line to where each one is going. |
 
-Generated 2026-11-01T13:36:24Z from POEFixer/POE2Fixer source commit `1ce2bebf1`.
+Generated 2026-11-03T17:18:01Z from POEFixer/POE2Fixer source commit `dcfba93b0`.
