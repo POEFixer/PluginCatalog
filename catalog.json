@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-11-03T17:18:01Z",
-  "source_commit": "dcfba93b00a98b630b3fd7ab5d5cac1e79006867",
+  "generated": "2026-11-06T12:22:05Z",
+  "source_commit": "ed868220561a263ddcd2cd54f18995f913483f15",
   "plugins": [
     {
       "id": "AmanamuVoidAlert",
@@ -102,19 +102,19 @@
     {
       "id": "FarmCounter",
       "name": "Farm Counter",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "author": "POEFixer",
       "description": "Records your map runs: loot value, map time, kills, gold and XP per hour, with run history and statistics per map type.",
       "repo": "POEFixer/FarmCounter",
-      "tag": "v1.0.4",
-      "url": "https://github.com/POEFixer/FarmCounter/releases/download/v1.0.4/FarmCounter.zip",
-      "sha256": "5936809ea22df33ba9515f2f034aa6ceec4e3e40a26d1a0de3345a8de28d70d0",
-      "size": 1118480,
+      "tag": "v1.0.5",
+      "url": "https://github.com/POEFixer/FarmCounter/releases/download/v1.0.5/FarmCounter.zip",
+      "sha256": "6180965f98df767c23b5f0f4607cc11743b85b4df230b10bed834632da690c30",
+      "size": 1118603,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 366,
       "changes": [
-        "Built with the current plugin SDK: a controller that is not XInput reports no port (-1) even when ready."
+        "Knows the zones added by game update 0.5.5f: its zone list follows the game's."
       ],
       "legacy_folders": []
     },
@@ -140,19 +140,19 @@
     {
       "id": "ForetoldRewards",
       "name": "Foretold Rewards",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "author": "POEFixer",
       "description": "Shows the priced rewards the Rite of the Nameless can offer on each atlas map, so you can plan your route before you run it.",
       "repo": "POEFixer/ForetoldRewards",
-      "tag": "v1.0.4",
-      "url": "https://github.com/POEFixer/ForetoldRewards/releases/download/v1.0.4/ForetoldRewards.zip",
-      "sha256": "cdcfeeaf3db6d4617dfc3f73c3597f14acd409e3bdba7ef28833d00be847269b",
-      "size": 415949,
+      "tag": "v1.0.5",
+      "url": "https://github.com/POEFixer/ForetoldRewards/releases/download/v1.0.5/ForetoldRewards.zip",
+      "sha256": "e54463bf820a29afd61a738f10f862bf53a7f87600e116eae47a86d415d174c5",
+      "size": 415952,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 366,
       "changes": [
-        "Built with the current plugin SDK: a controller that is not XInput reports no port (-1) even when ready."
+        "Source notes only: how a second reward is kept apart from the first, as of game patch 0.5.5f. Nothing changes in use."
       ],
       "legacy_folders": []
     },
