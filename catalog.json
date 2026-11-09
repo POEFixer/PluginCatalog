@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-11-06T12:22:05Z",
-  "source_commit": "ed868220561a263ddcd2cd54f18995f913483f15",
+  "generated": "2026-11-09T12:08:39Z",
+  "source_commit": "44e29025026bc87155a951d774b2fe3b3dbeb667",
   "plugins": [
     {
       "id": "AmanamuVoidAlert",
@@ -306,19 +306,26 @@
     {
       "id": "RitualHelper",
       "name": "Ritual Helper",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "author": "Omer Faruk ARPA, POEFixer",
       "description": "Highlights the Ritual rewards you want in the Favours window, shows their prices and defers them all with one click.",
       "repo": "POEFixer/RitualHelper",
-      "tag": "v1.6.0",
-      "url": "https://github.com/POEFixer/RitualHelper/releases/download/v1.6.0/RitualHelper.zip",
-      "sha256": "8044bac6c4457532114a6890f2f3494029b88e055067ed04d9aea1b9f708b12b",
-      "size": 456536,
+      "tag": "v1.6.1",
+      "url": "https://github.com/POEFixer/RitualHelper/releases/download/v1.6.1/RitualHelper.zip",
+      "sha256": "c781926b7acfe64cac2cff5913d775a894f19af1c4bc718224eda9547ee8aedb",
+      "size": 463829,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 364,
       "changes": [
-        "Built with the current plugin SDK: a controller that is not XInput reports no port (-1) even when ready."
+        "The defer hourglass is found at every screen size: it was missed at 1080p, 2160p and most other sizes, so DEFER asked to switch defer mode on by hand. DEFER switches it on by itself again.",
+        "With POEFixer 365 or later the Favours window's buttons are found by the game's own element names, the same in every game language.",
+        "DEFER checks defer mode again right after you press it: when defer mode was switched on by hand and went off at the press, DEFER switches it back on before clicking a reward (or stops without clicking one when the hourglass is not found). This fixes \"Stopped: defer mode turned off\".",
+        "The DEFER button is never drawn over the game's hourglass or the reroll button; a long label at a large font size is drawn smaller.",
+        "DEFER clicks nothing when the rewards changed around the press (a reroll or a refresh from the server) and asks you to press it again, instead of clicking where other rewards now are.",
+        "A deferral that worked no longer ends with \"Stopped: defer mode turned off\" when the game leaves defer mode right after the confirming click.",
+        "Safer clicking: a reward or the confirming button is clicked only right after the window was read again, so a refresh from the server that ends defer mode is seen before the click.",
+        "The discovery dump lists each element's control name and the window's buttons found by name."
       ],
       "legacy_folders": []
     },
