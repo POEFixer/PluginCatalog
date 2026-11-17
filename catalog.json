@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-11-17T05:06:20Z",
-  "source_commit": "c96570ac366cd3bf461a3a0a5b75036ca42d8e06",
+  "generated": "2026-11-17T06:05:57Z",
+  "source_commit": "ae05d7836acc64e6516915b7b0fb1793f835cc95",
   "plugins": [
     {
       "id": "AmanamuVoidAlert",
@@ -83,26 +83,21 @@
     {
       "id": "BuildPlanner",
       "name": "Build Planner",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "POEFixer",
       "description": "Shows a Path of Building build in the game: the next passive points on the tree, the recommended item on each equipment slot and the skills with their support gems.",
       "repo": "POEFixer/BuildPlanner",
-      "tag": "v1.0.0",
-      "url": "https://github.com/POEFixer/BuildPlanner/releases/download/v1.0.0/BuildPlanner.zip",
-      "sha256": "07fe358f42b9b4ea2bce4c5c33f3d4de3fbced5e8a7bfe5986606f3194de6fe0",
-      "size": 1221449,
+      "tag": "v1.0.1",
+      "url": "https://github.com/POEFixer/BuildPlanner/releases/download/v1.0.1/BuildPlanner.zip",
+      "sha256": "24423c3e35a2a83032068d098e0b3136af72812afa490931a7d3282e7d7b836d",
+      "size": 1225596,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 366,
       "changes": [
-        "First release: a Path of Building build shown in the game.",
-        "Passive tree: the next points in order, refunds, weapon set and attribute hints.",
-        "Equipment: the build's item on every slot you hover, and a mark on each slot.",
-        "Skills: the build's skills with their support gems, in a window and on the Skills panel.",
-        "Imports build links and Path of Building codes; the hints show at once.",
-        "Leveling builds: the stage that fits your level is followed by itself.",
-        "Can write the stage you follow into the game's own Build Planner (experimental).",
-        "Ten languages."
+        "Importing a build that is already in your list follows that build instead of adding it a second time.",
+        "A character of another class is no longer pointed to the build's ascendancy or told to refund passives first.",
+        "Equipment: slot marks under the build item card no longer show through it."
       ],
       "legacy_folders": []
     },
