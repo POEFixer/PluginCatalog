@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-11-25T13:03:37Z",
-  "source_commit": "ffca3186d50892ca12f6c9feef35b22f75777bdc",
+  "generated": "2026-11-27T08:30:39Z",
+  "source_commit": "f5c0ce0075ac5d358ae1d0cfcfb0c66b05e1061b",
   "plugins": [
     {
       "id": "AmanamuVoidAlert",
@@ -250,19 +250,23 @@
     {
       "id": "NinjaPricer",
       "name": "Ninja Pricer",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "author": "POEFixer",
       "description": "Shows item prices on dropped items, in your inventory and stash, in the Ritual shop and on Runeshape rewards.",
       "repo": "POEFixer/NinjaPricer",
-      "tag": "v1.0.4",
-      "url": "https://github.com/POEFixer/NinjaPricer/releases/download/v1.0.4/NinjaPricer.zip",
-      "sha256": "1b64d1f1b8589eff40a5a40321045a5c6d2d12a28a9fb844258e5aa8766ba010",
-      "size": 415527,
+      "tag": "v1.0.5",
+      "url": "https://github.com/POEFixer/NinjaPricer/releases/download/v1.0.5/NinjaPricer.zip",
+      "sha256": "d2330dc379502253e35872c475c5f4e3e6cd72b38340f1dabf75e8b2a727c8d1",
+      "size": 422757,
       "sdk_version": 6,
       "imgui_version_num": 19300,
       "min_host_version": 366,
       "changes": [
-        "Built with the current plugin SDK: a controller that is not XInput reports no port (-1) even when ready."
+        "The hold hotkey (Overlay Toggles tab) has a mode: **Hold to hide** (as before: prices and the Runeshape window disappear while the key is held) or **Hold to show** (they stay hidden and appear only while the key is held). Without a hotkey the mode does nothing; settings saved by an older version keep Hold to hide.",
+        "Hotkeys look like the other plugin settings: the key on a button you click to change it, a quiet Clear beside it. The key code is no longer shown. Keyboard keys carry the plugin kit's English names, as in the other plugins (the arrow keys, Insert, Delete, Home, End, Page Up / Down and Num Lock showed as numpad keys or Pause before); punctuation keys show the character your keyboard layout puts on them (Ü, Ж, ...). A key the plugin cannot name is not bound.",
+        "While a hotkey waits for a key, a left click elsewhere cancels, as Esc does; the left mouse button is never bound (one bound by an older version keeps working).",
+        "The Runeshape window's show/hide hotkey also works while the hold hotkey hides the overlay.",
+        "In a narrow settings tab or with a large font the hotkey rows put their controls under their labels instead of past the tab's edge."
       ],
       "legacy_folders": []
     },
